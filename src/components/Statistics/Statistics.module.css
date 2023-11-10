@@ -1,0 +1,27 @@
+.statistics {
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.statList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
